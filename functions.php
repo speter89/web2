@@ -64,7 +64,7 @@ function register(){
 	}
 }
 
-// felhasználó id alapján azonosítása (id alapján ki szedi az összes változót és arrabe(tömbbe) tárolja)
+// felhasználó id alapján azonosítása (id alapján ki szedi az összes változót és arraybe(tömbbe) tárolja)
 function getUserById($id){
 	global $db;
 	$query = "SELECT * FROM users WHERE id=" . $id;

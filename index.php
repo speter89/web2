@@ -66,6 +66,7 @@
 	<a class="a"  href="index.php">Kezdőlap és komment</a>
 	<a class="a"  href="upload.php">Képfeltöltés</a>
 	<a class='a'  href="contact.php">Contact</a>
+	<a class='a'  href="php.html">A php nyelv</a>
 	</div>
 	<div class="content">
 		<?php if (!isLoggedIn()) : ?>
